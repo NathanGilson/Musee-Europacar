@@ -1,0 +1,114 @@
+.menu{
+	height: 100vh;
+	background: linear-gradient(to bottom, pink, red);
+	color: black;
+	text-decoration-color: black;
+	margin-bottom:50px ;
+	
+}
+
+
+
+.menu2{
+	text-decoration-color:  black;
+
+
+}
+
+body{
+	background-color: #E3E3E3;
+
+}	
+
+.espace{
+	margin-bottom: 30px;
+}
+/*Bordure autour du menu + menu qui suit*/
+
+.navbar .navbar-nav .nav-item .nav-link {
+  border-bottom:1px solid white;
+  border-top:1px solid white;
+  font-size: 18px;
+  color: black;
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: black;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: black;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.page-item{
+	color: black;
+}
+
+.page-link{
+	color: black;
+	text-decoration-color: black;
+}
+	
+
+body{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.container{
+	/* grow shrink basis*/
+	flex:  1 0 auto;
+}
+
+footer{
+	flex-shrink: 0;
+	
+	width: 110%;
+	height: 50vh;
+	background: linear-gradient(to top, #D0D0D0, #FF4D4D);
+	color: #333;
+
+}
+
+.justifier{
+	text-align: justify;
+	text-justify:int'';
+
+}
+
+.bloc{
+	width: 25%;
+	margin:  0 30px;
+
+}
+
+@font-face{
+	font-family: nixieone;
+	src: url(fonts/NixieOne.ttf);
+}
+
+form{
+	display:  grid;
+	padding: 2em;
+}
+
+form input label{
+	margin: 0.2em;
+	padding: 0.2em;
+}
+
+.back{
+	background-color: #E3E3E3;
+}
+
+.href{
+	color:black;
+	text-decoration-color: black;
+}
+
